@@ -1,0 +1,11 @@
+{
+  "db": {
+    "host": "localhost",
+    "database": "test",
+    "username": "test",
+    "password": "pa55word",
+    "name": "db",
+    "connector": "mysql",
+    "user": "test"
+  }
+}

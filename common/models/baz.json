@@ -1,0 +1,17 @@
+{
+  "name": "Baz",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "message": {
+      "type": "string"
+    }
+  },
+  "mixins": {
+    "Transactional": true
+  }
+}
